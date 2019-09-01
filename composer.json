@@ -1,0 +1,21 @@
+{
+    "name": "rizkymiff/zenziva-sms",
+    "description": "Integrasi API zenziva sms",
+    "keywords": [
+        "zenziva", "zenziva-sms", "Api zenziva sms", "zenziva sms laravel"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Achm Miftahul Rizky",
+            "email": "tizqy.miftaqul77@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "rizkymiff\\zenzivasms\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
