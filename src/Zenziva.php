@@ -9,17 +9,17 @@ class Zenziva extends Api
 	public function message($text)
 	{
 		if (!is_string($text)) {
-			return throw new \Exception("Text should be string type.");
+			throw new Exception("Text should be string type.");
 			
 		}
-		return $this->message = $text;
+		return $this;
 	}
 
 	public function to($phone)
 	{
 		if (empty($phone)) {
-			return throw new \Exception("Phone cant be empty");
+			throw new Exception("Phone cant be empty");
 		}
-		return $this->phone = $phone;
+		return $this;
 	}
 }

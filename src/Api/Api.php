@@ -1,7 +1,6 @@
 <?php
 
 namespace rizkymiff\zenzivasms\Api
-use GuzzleHttp\Client;
 /**
  * 
  */
@@ -75,8 +74,7 @@ abstract class Api
 		curl_setopt($ch, CURLOPT_POST, 1);
 		$results = curl_exec($ch);
 		curl_close($ch);
-		// $XMLdata = new SimpleXMLElement($results);
-		// $status = $XMLdata->message[0]->text;
+		
 		return $results;
 	}
 }
