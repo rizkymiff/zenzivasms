@@ -22,7 +22,7 @@ Tambahkan juga pada bagian di config/app.php
 ```php
 'aliases' => [
      ....
-     rizkymiff\zenzivasms\zenzivaFacade::class,
+     'Zenziva' => rizkymiff\zenzivasms\zenzivaFacade::class,
 ]
 ```
 kemudian jalankan artisan command
